@@ -1,6 +1,7 @@
 use_frameworks!
 
 target 'StaticFrameworkResources_Example' do
+  platform :ios, '11'
   pod 'StaticFrameworkResources', :path => '../'
 
   target 'StaticFrameworkResources_Tests' do

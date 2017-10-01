@@ -18,5 +18,11 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "StaticFrameworkResources/Classes/**/*"
+  "source_files": "StaticFrameworkResources/Classes/**/*",
+  "resource_bundles": {
+    "StaticFrameworkResources": [
+      "StaticFrameworkResources/Assets/*.png"
+    ]
+  },
+  "static_framework": true
 }
