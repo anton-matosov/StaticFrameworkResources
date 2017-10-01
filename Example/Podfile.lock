@@ -1,0 +1,16 @@
+PODS:
+  - StaticFrameworkResources (0.1.0)
+
+DEPENDENCIES:
+  - StaticFrameworkResources (from `../`)
+
+EXTERNAL SOURCES:
+  StaticFrameworkResources:
+    :path: ../
+
+SPEC CHECKSUMS:
+  StaticFrameworkResources: a88782100eab7ae8e3214d0659cec564cfd5a02d
+
+PODFILE CHECKSUM: bf97bc93165545d5c4876101776170298ab23366
+
+COCOAPODS: 1.4.0.beta.1
