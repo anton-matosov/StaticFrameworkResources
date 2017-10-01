@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'StaticFrameworkResources_Example' do
+  pod 'StaticFrameworkResources', :path => '../'
+
+  target 'StaticFrameworkResources_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
